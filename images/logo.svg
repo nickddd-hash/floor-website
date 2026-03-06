@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 190" fill="none">
+  <!-- Parallelogram / rhombus background -->
+  <path d="M28 155 L72 18 L200 18 L156 155 Z" fill="#85C226" rx="4"/>
+
+  <!-- White omega-bolt icon -->
+  <!-- Hexagon (bolt head) -->
+  <path d="M114 32 L134 43 L134 65 L114 76 L94 65 L94 43 Z" fill="white"/>
+  <!-- Hexagon inner cutout -->
+  <path d="M114 39 L128 47 L128 63 L114 71 L100 63 L100 47 Z" fill="#85C226"/>
+  <!-- Small center dot -->
+  <circle cx="114" cy="55" r="7" fill="white"/>
+
+  <!-- Omega body - the lower part -->
+  <!-- Left arc -->
+  <path d="M94 72 Q84 90 84 108 Q84 130 100 138" stroke="white" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Right arc -->
+  <path d="M134 72 Q144 90 144 108 Q144 130 128 138" stroke="white" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Bottom feet -->
+  <rect x="86" y="132" width="30" height="12" rx="6" fill="white"/>
+  <rect x="112" y="132" width="30" height="12" rx="6" fill="white"/>
+
+  <!-- Text: ПСК ОМЕГА -->
+  <text x="173" y="110"
+        font-family="'Arial Black', Arial, sans-serif"
+        font-weight="900"
+        font-size="20"
+        fill="#85C226"
+        letter-spacing="1">ПСК</text>
+  <text x="163" y="135"
+        font-family="'Arial Black', Arial, sans-serif"
+        font-weight="900"
+        font-size="20"
+        fill="#85C226"
+        letter-spacing="1">ОМЕГА</text>
+</svg>
