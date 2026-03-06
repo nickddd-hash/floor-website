@@ -19,7 +19,7 @@
   --color-text: #ffffff;
   --color-text-muted: #a0a0b0;
   --color-border: rgba(255,255,255,0.08);
-  --color-whatsapp: #25D366;
+  --color-whatsapp: #2AABEE;
   --font: 'Inter', system-ui, -apple-system, sans-serif;
   --radius: 12px;
   --radius-lg: 20px;
@@ -333,6 +333,7 @@ ul { list-style: none; }
   line-height: 1.05;
   letter-spacing: -2px;
   margin-bottom: 24px;
+  text-align: left;
 }
 
 .hero__subtitle {
@@ -1066,13 +1067,13 @@ a.contact-item__value:hover { color: var(--color-accent); }
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  box-shadow: 0 4px 20px rgba(42, 171, 238, 0.4);
   transition: all var(--transition);
 }
 .whatsapp-float svg { width: 28px; height: 28px; fill: white; }
 .whatsapp-float:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.6);
+  box-shadow: 0 6px 28px rgba(42, 171, 238, 0.6);
 }
 
 /* ============================================
